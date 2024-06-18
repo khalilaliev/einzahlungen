@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/rippleui@1.12.1/dist/css/styles.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Einzahlungen</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Einzahlungen</h1>
+      <div class="flex w-full overflow-x-auto">
+        <table id="tableId" class="table">
+          <thead>
+            <tr>
+              <th>Datum</th>
+              <th>Betrag CHF</th>
+              <th>Stellungnahme</th>
+              <th>Finanzausgaben</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="btn-box">
+        <button class="btn" id="saveButton">Save</button>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
